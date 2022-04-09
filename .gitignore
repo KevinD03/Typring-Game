@@ -2,13 +2,14 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Aa]ssets/_DLNK/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -57,4 +58,18 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+Type-to-win/Assets/_DLNK/
+Type-to-win/Assets/_DLNK.meta
+
+# A lonely mac user requests this
+.DS_Store
+
+# Vim backup swap files
+*.swp
+
+# Editor layout should be individual
+Type-to-win/UserSettings/Layouts/
+Type-to-win/UserSettings/EditorUserSettings.asset
+Type-to-win/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
 
